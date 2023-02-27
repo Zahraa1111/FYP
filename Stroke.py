@@ -12,13 +12,13 @@ from streamlit_option_menu import option_menu
 ### Page layout
 
 st.set_page_config(
-    page_title="Instagram Prediction",
+    page_title="Stroke",
     layout="wide",
 )
 
 ### Import Dataset
 
-df = pd.read_csv('https://raw.githubusercontent.com/sarakaddoura/Projects/main/healthcare-dataset-stroke-data.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Zahraa1111/FYP/main/healthcare-dataset-stroke-data%20copy.csv')
 
 
 ### Navigation
