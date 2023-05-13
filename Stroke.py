@@ -7,10 +7,7 @@ import matplotlib.pyplot as plt
 import hydralit_components as hc
 import plotly.graph_objects as go
 from streamlit_option_menu import option_menu
-from streamlit.cli import main
-from streamlit.delta_generator import DeltaGenerator as _DeltaGenerator
-from streamlit.elements.arrow_altair import ArrowAltairMixin
-from altair.vegalite.v4.api import Chart
+
 
 ### Page layout
 
